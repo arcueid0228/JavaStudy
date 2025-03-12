@@ -1,1 +1,13 @@
-Math.abs
+Math.abs();    取绝对值
+Math.ceil();   向上取整
+Math.floor();  向下取整
+Math.round();  四舍五入
+Math.Max(a,b); 取最大值
+Math.Min(a,b); 取最小值
+Math.pow(a,b); 获取a的b次幂
+Math.sqrt();	 获取平方根
+Math.cbrt();	 获取立方根
+Math.random(); 获取0.0到1.0前闭后开的随机数（不常用）
+System.exit();		 终止当前运行的java虚拟机 0表示虚拟机正常停止，非0则表示虚拟机异常停止
+long currentTimeMillis(); 返回当前系统的时间毫秒值
+arrayCopy();	 数组复制	
