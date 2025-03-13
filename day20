@@ -1,0 +1,13 @@
+static Runtime getRuntime();   //return currentRuntime
+Runtime r1 = Runtime.getRuntime();
+Runtime r2 = Runtime.getRuntime();
+return (r1 == r2);  //true;
+Runtime.getRuntime().exit(0); //停止虚拟机  System.exit()的底层
+Runtime.getRuntime().availableProcessors() //获取CPU线程数
+Runtime.getRuntime().maxMemory();//总内存大小，单位byte
+Runtime.getRuntime().totalMemory();//已经获取的内存大小
+Runtime.getRuntime().freeMemory();//剩余内存大小
+Runtime.getRuntime().exec();//运行cmd命令
+//
+Object
+toString(); //返回对象的字符串形式
